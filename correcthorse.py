@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 import random
 
 filename = "20k.txt"
