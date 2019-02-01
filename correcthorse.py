@@ -16,6 +16,8 @@ def main(filename):
         except ValueError as e:
             print('Exiting...')
             return
+        except Exception as e:
+            print('Another sort of exception: {}'.format(type(e)))
 
 
 if __name__ == "__main__":
