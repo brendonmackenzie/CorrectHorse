@@ -17,7 +17,7 @@ def main(filename):
             print('Exiting...')
             return
         except Exception as e:
-            print('Another sort of exception: {}'.format(type(e)))
+            print('There was an unexpected exception: {}'.format(type(e)))
 
 
 if __name__ == "__main__":
